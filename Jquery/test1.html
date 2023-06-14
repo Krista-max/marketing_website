@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="paragraph">Hello</p>
+    <p id="paragraph1">Hello</p>
+    <p id="paragraph2">Hello</p>
+    <p id="paragraph3">Hello</p>
+    <p id="paragraph4">Hello</p>
+    <p id="paragraph5">Hello5</p>
+    <p id="paragraph6">Hello6</p>
+    Name: <input type="text"><br>
+    Email: <input type="email" id="input1">
+    <!-- <h1 id="heading">Hello user</h1>
+    <h1 id="heading2">heading</h1>
+    <h3 id="heading3">Heading 3</h3> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+    //    $("#paragraph").html("change paragraph")
+    //    $('#heading').click(function() {
+    //     $(this).hide(1000,function(){
+    //         console.log("hello user")
+    //     });
+    //    })
+    //    $("#heading2").click(function(){
+    //     $(this).hide(500,function(){
+    //         console.log("hello h2")
+    //     })
+    //    })
+      
+    // $(document).ready(function(){
+    //     $("#heading").click(function(){
+    //         $(this).hide(1000,function(){
+    //             alert("hello")
+    //         });
+    //     });
+    // });
+    $("#paragraph").dblclick(function(){
+        $(this).hide(1000)
+    });
+    $("#paragraph1").mouseenter(function(){
+        $(this).hide(1000)
+    });
+    $("#paragraph2").mousedown(function(){
+        $(this).hide(1000)
+    });
+    $("#paragraph4").mouseup(function(){
+        alert("this is mouse up")
+    });
+    $("#paragraph5").hover(function(){
+        alert("hover paragraph")
+    },function(){
+        alert("bye See ya")
+    });
+    $("input").focus(function(){
+        $(this).css("background","red")
+    });
+    $("#paragraph6").on({
+        dblclick:function(){
+            $(this).css("background","blue")
+        },
+        hover:function(){
+            $(this).css("background","yellow")
+        },
+        click:function(){
+            $(this).css("background","purple")
+        }
+    });
+    </script>
+</body>
+</html> 

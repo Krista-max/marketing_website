@@ -1,0 +1,17 @@
+.gallery{
+    columns: 300px;
+    width: 1000px;
+    margin: auto;
+    column-gap: 30px;
+}
+.pj-img{
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 0px;
+    border:1px solid white;
+    transition: 0.5s;
+}
+img:hover{
+    transform: scale(1.1);
+    filter: contrast(10%);
+}

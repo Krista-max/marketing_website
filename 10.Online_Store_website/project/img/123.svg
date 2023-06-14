@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1615" height="1791" viewBox="0 0 1615 1791">
+  <g id="Group_543" data-name="Group 543" transform="translate(96.441 -1235)">
+    <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(-96.441 1235)" fill="none" stroke="#dedede" stroke-linecap="round" stroke-width="3" stroke-dasharray="15 20">
+      <circle cx="245.5" cy="245.5" r="245.5" stroke="none"/>
+      <circle cx="245.5" cy="245.5" r="244" fill="none"/>
+    </g>
+    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(-96.441 2535)" fill="none" stroke="#dedede" stroke-linecap="round" stroke-width="3" stroke-dasharray="15 20">
+      <circle cx="245.5" cy="245.5" r="245.5" stroke="none"/>
+      <circle cx="245.5" cy="245.5" r="244" fill="none"/>
+    </g>
+    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(1027.559 1892)" fill="none" stroke="#dedede" stroke-linecap="round" stroke-width="3" stroke-dasharray="15 20">
+      <circle cx="245.5" cy="245.5" r="245.5" stroke="none"/>
+      <circle cx="245.5" cy="245.5" r="244" fill="none"/>
+    </g>
+    <text id="_1" data-name="1" transform="translate(149.67 1572.073)" fill="#f1f1f1" font-size="279" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-79.286" y="0">1</tspan></text>
+    <text id="_3" data-name="3" transform="translate(149.67 2872.073)" fill="#f1f1f1" font-size="279" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-79.286" y="0">3</tspan></text>
+    <text id="_2" data-name="2" transform="translate(1273.229 2229.073)" fill="#f1f1f1" font-size="279" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-79.286" y="0">2</tspan></text>
+    <line id="Line_19" data-name="Line 19" x2="452" y2="201" transform="translate(484.293 1763.5)" fill="none" stroke="#dedede" stroke-linecap="round" stroke-width="3"/>
+    <line id="Line_20" data-name="Line 20" x1="452" y2="201" transform="translate(484.293 2481.5)" fill="none" stroke="#dedede" stroke-linecap="round" stroke-width="3"/>
+  </g>
+</svg>
